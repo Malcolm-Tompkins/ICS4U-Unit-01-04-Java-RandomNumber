@@ -46,7 +46,8 @@ final class Random {
         final int max = NUMBER_SIX;
 
         // From:
-        // https://www.educative.io/edpresso/how-to-generate-random-numbers-in-java
+        // https://www.educative.io/edpresso
+	// /how-to-generate-random-numbers-in-java
 
         final int randomNumber = (int) Math.floor(Math.random() * (
             max - min + 1) + min);
